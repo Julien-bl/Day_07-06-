@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.splide {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
